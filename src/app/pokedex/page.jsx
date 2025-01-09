@@ -50,18 +50,16 @@ export default function PokemonList() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-red-500 p-6">
-        <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
-          Pokedex
-        </h1>
+      <div className="flex flex-col min-h-screen bg-red-500 p-6">
+        <h1 className="text-4xl font-bold mb-6 text-white">Pokedex</h1>
         <p className="text-center text-red-600">{error}</p>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-red-500 p-6">
-      <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
+    <div className="flex flex-col min-h-screen bg-red-500 p-6">
+      <h1 className="text-4xl font-bold mb-6 text-whitetext-gray-800">
         Pokedex
       </h1>
 
